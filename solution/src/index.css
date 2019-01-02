@@ -1,0 +1,144 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+#root {
+  align-content: center;
+  margin: 15px;
+}
+
+/*css data*/
+
+.time {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #45bfbb94;
+  border-radius: 15px;
+  vertical-align: top;
+}
+
+option {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  border: 2px solid #45bfbb94;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+.values, .qty {
+  padding: 1px;
+  margin: 2px;
+  border: inherit;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.qty {
+  border: 2px solid #bf4545;
+}
+
+.table-data {
+  margin: 10px;
+  padding: 5px;
+  background: #fff;
+}
+
+.row1, .row2, .rowH {
+  margin: 2px;
+  border-radius: 15px;
+}
+
+.rowH {
+  background: #51bf45bf;
+  border: 2px solid #51bf45bf;
+}
+
+.row1 {
+  background: #45bfbb94;
+  border: 2px solid #45bfbb94;
+}
+
+.row2 {
+  background: #51bf4594;
+  border: 2px solid #51bf4594;
+}
+
+.col1, .col2, .col3 {
+  padding: 2px;
+  margin: 2px;
+  width: 175px;
+  text-align: center;
+}
+
+.col2, .col3 {
+  width: 190px;
+}
+
+.axis-linear  .tick {
+  display: none;
+}
+
+.label {
+  font-size: 20px;
+  text-anchor: end;
+}
+
+.data-updating {
+  font-size: x-large;
+  background: #7b94f5;
+  padding: 20px;
+  margin: 15px;
+}
+
+.no-data-found {
+  font-size: x-large;
+  background: #f5d07b;
+  padding: 20px;
+  margin: 15px;
+}
+
+.server-error {
+    font-size: xx-large;
+    background: #fb7171;
+    padding: 20px;
+    margin: 15px;
+}
+
+/*css chart*/
+
+svg {
+  margin: 15px;
+  padding: 10px;
+}
+
+.title {
+  text-color: black;
+}
+
+.line {
+    fill: none;
+    /* stroke: #0d00ff; */
+    stroke-width: 3;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+/* Style the dots by assigning a fill and stroke */
+.dot1 {
+  fill: #3546b7;
+  stroke: #fff;
+}
+
+.dot2 {
+  fill: #b73535;
+  stroke: #fff;
+}
+
+.focus {
+fill: none;
+stroke: steelblue;
+}
